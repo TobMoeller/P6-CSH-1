@@ -1,0 +1,7 @@
+C:\Users\tmide\Documents\dev\P6-CSH\P6-CSH-1\bin\Debug\P6-CSH-1.exe.config
+C:\Users\tmide\Documents\dev\P6-CSH\P6-CSH-1\bin\Debug\P6-CSH-1.exe
+C:\Users\tmide\Documents\dev\P6-CSH\P6-CSH-1\bin\Debug\P6-CSH-1.pdb
+C:\Users\tmide\Documents\dev\P6-CSH\P6-CSH-1\obj\Debug\P6-CSH-1.csprojAssemblyReference.cache
+C:\Users\tmide\Documents\dev\P6-CSH\P6-CSH-1\obj\Debug\P6-CSH-1.csproj.CoreCompileInputs.cache
+C:\Users\tmide\Documents\dev\P6-CSH\P6-CSH-1\obj\Debug\P6-CSH-1.exe
+C:\Users\tmide\Documents\dev\P6-CSH\P6-CSH-1\obj\Debug\P6-CSH-1.pdb
