@@ -120,7 +120,7 @@ namespace P6_CSH_1 {
         public void Uebung1() {
             Verwalter vw = new Verwalter();
             vw.Erfassen(new Kfz("A BC 123", 1989, 50, 1600, "BMW", "3er"));
-            vw.Erfassen(new Kfz("D EF 456", 2000, 150, 2400, "Ford", "Mustang"));
+            vw.Erfassen(new Kfz("D EF 456", 2000, 150, 2400, "Ford", "Müstang"));
             vw.DateiSchreiben();
             vw.DateiLesen();
             vw.DateiSichern();
@@ -213,7 +213,7 @@ namespace P6_CSH_1 {
             public void DateiSichern() {
                 string dsn = @"kfz.csv";
                 if (File.Exists(dsn)) {
-                    File.Copy(dsn, @"kfz.sec");
+                    File.Copy(dsn, dsn + ".sec", true);
                 }
             }
         }
