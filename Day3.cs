@@ -21,8 +21,9 @@ namespace P6_CSH_1 {
 
                 string zuVerschluesseln = "Wir verschlüsseln mit DES";
                 string verschluesselt;
-                string offenerSchluessel = "fiae4610"; // public key, muss 8 Zeichen für 128bit Verschlüsselung sein
+                string offenerSchluessel = "fiae4610"; // public key, muss 8 Zeichen für 64bit Verschlüsselung sein
                 string geheimSchluessel = "testi420"; // initialization vector, kann auch identisch mit public key sein muss gleiche Länge haben
+                // public key irreführend, ist eigentlich der Schlüssel, geheimSchluessel ist optional und bloß IV
                 byte[] offenerSchluesselInByte = Encoding.UTF8.GetBytes(offenerSchluessel);
                 byte[] geheimSchluesselInByte = Encoding.UTF8.GetBytes(geheimSchluessel);
                 MemoryStream memoryStream = null;
@@ -103,7 +104,7 @@ namespace P6_CSH_1 {
             try {
 
                 FileStream fileStream = new FileStream(datei, FileMode.OpenOrCreate);
-
+                
                 //Erzeugen eines Objektes der Klasse Aes (Advanced Encryption Standard)  
                 //und Festlegen des einheitlichen Schlüssels.  
                 Aes aes = Aes.Create();
