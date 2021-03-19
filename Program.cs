@@ -13,7 +13,7 @@ namespace P6_CSH_1 {
     class Program {
         static void Main(string[] args) {
 
-            Day.days = new List<Day>() { new Day1(), new Day2(), new Day3(), new Day5()};
+            Day.days = new List<Day>() { new Day1(), new Day2(), new Day3(), new Day5(), new Day6()};
             Day.StartProg();
             Console.WriteLine("\n\n--- Ende ---");
             Console.ReadKey();
